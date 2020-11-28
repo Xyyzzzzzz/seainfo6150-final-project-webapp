@@ -1,0 +1,24 @@
+body{
+    background-color: rgb(245, 241, 241);
+    font-family: 'Noto Sans JP',sans-serif;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+    font-weight: 700;
+}
+
+a:hover{
+color:  #6ebe3b;;
+}
+
+h1, h2, h3{
+    font-family: 'Lato', sans-serif;
+    font-style: italic;
+    font-weight: 700;
+}
+
+/* img{
+    width: 100%;
+} */

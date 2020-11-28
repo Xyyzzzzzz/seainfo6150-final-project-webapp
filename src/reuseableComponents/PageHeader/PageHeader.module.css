@@ -1,0 +1,30 @@
+.container{
+    /* margin: 0 5%; */
+    background-image: url(http://recipepress-three.inspirydemos.com/wp-content/themes/inspiry-recipe-press/images/banner.jpg); 
+    /* #ffffff;  */
+    background-size:cover
+}
+
+/* .image{
+    width: 100%;
+} */
+
+.heading{
+    background: #ffffff;
+    padding: 10px;
+    display: inline-block;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    margin-left: 20px;
+}
+
+.name{
+    font-family: 'Lato', sans-serif;
+    font-weight: 900;
+    font-size: 24px;
+    font-style: normal;
+    text-transform: uppercase;
+    border: 1px solid #e4d9d1;
+    margin: 0;
+    padding: 20px 40px;
+}

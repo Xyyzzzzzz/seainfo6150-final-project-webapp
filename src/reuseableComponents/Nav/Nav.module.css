@@ -1,0 +1,30 @@
+.container{
+    background-color: #6ebe3b;
+}
+
+.navList{
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+}
+
+nav a{
+    /* font-style: italic;
+    font-weight: 600;
+    font-size: 18px;
+    color: #33571c; */
+    display: block;
+    height: 66px;
+    line-height: 66px;
+    /* vertical-align: middle; */
+    font-family: 'Lora', serif;
+    font-style: italic;
+    font-weight: 600;
+    font-size: 16px;
+    color: #33571c;
+    text-transform: capitalize;
+}
+
+nav a:hover{
+    color: white;
+}

@@ -1,0 +1,31 @@
+.inputItem{
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+}
+
+.inputItem input{
+    margin-top: 10px;
+    height: 20px;
+    width: 80%;
+}
+
+.subcribePreferences select{
+    width: 100px;
+}
+
+.selectedCategory{
+    margin-top: 30px;
+}
+
+.subcribeMethod{
+    margin-top: 30px;
+}
+
+.subcribeLanguage{
+    margin-top: 30px;
+}
+
+.subscribe{
+    margin-top: 30px;
+}
