@@ -1,27 +1,30 @@
-import React from 'react'
+import React from 'react';
 import { Link } from "react-router-dom";
-import styles from './Nav.module.css'
+import styles from './Nav.module.css';
 
 const Nav = () => {
     return (
         <nav className={styles.container}>
             <ul className={styles.navList}>
-                <li className={styles.navItem}>
+                <li>
                     <Link to="/">Home</Link>
                 </li>
-                <li className={styles.navItem}>
+                <li>
                     <Link to="/category/American">American</Link>
                 </li>
-                <li className={styles.navItem}>
+                <li>
                     <Link to="/category/Asian">Asian</Link>
                 </li>
-                <li className={styles.navItem}>
+                <li>
                     <Link to="/category/European">European</Link>
                 </li>
-                <li className={styles.navItem}>
+                <li>
+                    <Link to="/category/Others">Others</Link>
+                </li>
+                <li>
                     <Link to="/subscribe">Subscribe</Link>
                 </li>
-                <li className={styles.navItem}>
+                <li>
                     <Link to="/contactUs">Contact Us</Link>
                 </li>
             </ul>

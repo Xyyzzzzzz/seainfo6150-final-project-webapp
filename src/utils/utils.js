@@ -1,12 +1,3 @@
-// export const fetchRecipes = async () => {
-//     // performs a GET request
-//     const response = await fetch("http://demo5112044.mockable.io/recipes");
-//     const responseJson = await response.json();
-//     console.log(Object.values(responseJson));
-//     return Object.values(responseJson);
-// };
-
-
 export const recipesInCategory = (recipes) => {
     const recipesInCategory = {};
     for (let recipeId in recipes) {
@@ -22,5 +13,5 @@ export const recipesInCategory = (recipes) => {
 };
 
 export const convertedText = (text) => {
-    return text.length > 100 ? text.slice(0, 100) + '...' : text;
+    return text.length > 150 ? text.slice(0, 150) + '...' : text;
 };

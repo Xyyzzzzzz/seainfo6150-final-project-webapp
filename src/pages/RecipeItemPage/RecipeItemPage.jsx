@@ -8,32 +8,38 @@ const RecipeItemPage = ({ recipe }) => {
             <h2>
                 {recipe.title}
             </h2>
-            <div className={styles.overview}>
-                <div className={styles.recommendationText}>{recipe.recommendationText}</div>
-                <div className={styles.otherInfo}>
-                    <div>
-                        Serving Number: {recipe.otherInfo.servingNumber}
-                    </div>
-                    <div>
-                        Cooking Time: {recipe.otherInfo.cookTime}
-                    </div>
-                    <div>
-                        Skill Level: {recipe.otherInfo.skillLevel}
+            <div className={styles.textWrapper}>
+                <div className={styles.overview}>
+                    <div className={styles.recommendationText}>{recipe.recommendationText}</div>
+                    <div className={styles.otherInfo}>
+                        <div>
+                            Serving Number: {recipe.otherInfo.servingNumber}
+                        </div>
+                        <div>
+                            Cooking Time: {recipe.otherInfo.cookTime}
+                        </div>
+                        <div>
+                            Skill Level: {recipe.otherInfo.skillLevel}
+                        </div>
                     </div>
                 </div>
-            </div>
-            <div className={styles.details}>
-                <div className={styles.ingredients}>
-                    <h3>Main Ingredients</h3>
-                    {recipe.mainIngredients.map((ingredient, index) => (
-                        <li key={index} className={styles.ingredient}>{ingredient}</li>
-                    ))}
-                </div>
-                <div className={styles.instructions}>
-                    <h3>Cooking Instructions</h3>
-                    {recipe.cookingInstructions.map((instruction, index) => (
-                        <li key={index} className={styles.instruction}>Step {index + 1}: {instruction}</li>
-                    ))}
+                <div className={styles.details}>
+                    <div className={styles.ingredients}>
+                        <h3>Main Ingredients</h3>
+                        <ul>
+                            {recipe.mainIngredients.map((ingredient, index) => (
+                                <li key={index} className={styles.ingredient}>{ingredient}</li>
+                            ))}
+                        </ul>
+                    </div>
+                    <div className={styles.instructions}>
+                        <h3>Cooking Instructions</h3>
+                        <ol>
+                            {recipe.cookingInstructions.map((instruction, index) => (
+                                <li key={index} className={styles.instruction}>Step {index + 1}: {instruction}</li>
+                            ))}
+                        </ol>
+                    </div>
                 </div>
             </div>
         </div >

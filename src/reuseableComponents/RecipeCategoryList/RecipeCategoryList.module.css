@@ -1,19 +1,40 @@
 .container{
-    background-color:#eceaea; ;
+    background-color:#eceaea;
     margin: 2% 0;
-    /* padding: 10px; */
 }
 
-.header{
+.categoryName{
+    padding-left: 2%;
+    padding-top: 1%;
+}
+
+.wrapper{
     display: flex;
-    justify-content: space-between;
-    align-items: baseline;
-    margin: 0 2%;
+    justify-content: center;
 }
 
 .recipes{
-    /* display: flex;
-   justify-content: space-between; */
-   display: grid;
-   grid-template-columns:1fr 1fr 1fr;
+    display: grid;
+    grid-template-columns: 1fr;
+ }
+
+@media screen and (min-width: 850px) {
+    .recipes{
+        display: grid;
+        grid-template-columns:1fr 1fr;
+    }
+}
+
+@media screen and (min-width: 1250px) {
+    .recipes{
+        display: grid;
+        grid-template-columns:1fr 1fr 1fr;
+    }
+}
+
+@media screen and (min-width: 1650px) {
+    .recipes{
+        display: grid;
+        grid-template-columns:1fr 1fr 1fr 1fr;
+    }
 }

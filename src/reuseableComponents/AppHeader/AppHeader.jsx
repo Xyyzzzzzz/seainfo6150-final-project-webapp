@@ -1,12 +1,11 @@
 import React from 'react';
 import styles from './AppHeader.module.css';
+import appHeader from '../../images/appHeader.jpg';
 
 const Header = () => {
     return (
         <div className={styles.container}>
-            <img className={styles.header}
-                src={'http://recipepress-min.inspirydemos.com/wp-content/themes/inspiry-recipepress-demo/showcase/showcase-logo.png'}
-            ></img>
+            <img src={appHeader} alt='app header image' />
         </div >
     )
 };

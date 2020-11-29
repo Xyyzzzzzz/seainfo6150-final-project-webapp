@@ -5,17 +5,18 @@ import { Link } from "react-router-dom";
 
 const RecipeCategory = ({ recipes, category }) => {
     return (
-        <div className={styles.container}>
-            <div className={styles.header}>
-                <h3>{category}</h3>
-                <Link to={{ pathname: `/category/${category}` }}>View All</Link>
+        <li className={styles.container}>
+            <div className={styles.categoryName}>
+                <h3><Link to={{ pathname: `/category/${category}` }}>{category}</Link></h3>
             </div>
-            <div className={styles.recipes}>
-                {recipes.map((recipe, index) => (
-                    index <= 2 ? <RecipeItemCard recipe={recipe} /> : null
-                ))}
+            <div className={styles.wrapper}>
+                <div className={styles.recipes}>
+                    {recipes.map((recipe, index) => (
+                        index <= 3 ? <RecipeItemCard recipe={recipe} /> : null
+                    ))}
+                </div>
             </div>
-        </div>
+        </li>
     )
 };
 

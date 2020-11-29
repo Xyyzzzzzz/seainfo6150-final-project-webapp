@@ -14,11 +14,7 @@ const RecipeItemCard = ({ recipe }) => {
                 <div className={styles.cookTime}>
                     Cooking Time: {recipe.otherInfo.cookTime}
                 </div>
-
-
             </div>
-
-            {/* // <Link to={{ pathname: `/details/${recipe.id}` }}>Show Details</Link> */}
         </div>
     )
 };

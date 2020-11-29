@@ -1,5 +1,5 @@
-import React from 'react'
-import styles from './SubscribePage.module.css'
+import React from 'react';
+import styles from './SubscribePage.module.css';
 
 import Form from '../../reuseableComponents/Form/Form';
 import PageHeader from '../../reuseableComponents/PageHeader/PageHeader';

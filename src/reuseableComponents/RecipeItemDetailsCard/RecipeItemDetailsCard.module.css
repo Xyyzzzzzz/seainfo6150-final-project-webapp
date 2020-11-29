@@ -1,28 +1,42 @@
 .container{
     display: flex;
+    flex-direction: column;
     margin: 20px 0;
     background-color:white;
-    font-family: 'Lato', sans-serif;;
 }
 
 .image{
-    padding: 30px 0;
+    display: flex;
+    padding: 2% 20%;
+    align-self: center;
+    width: 60%;
     background-color: rgba(219, 219, 219, 0.5);
+}
+
+@media screen and (min-width: 900px) {
+    .container{
+        display: grid;
+        grid-template-columns: 1fr 1.5fr;
+        margin: 20px 0;
+        background-color:white;  
+    }
+    .image{
+        width: 100%;
+        padding: 30px 0;
+        background-color: rgba(219, 219, 219, 0.5);
+    }
 }
 
 .details{
     display: flex;
     flex-direction: column;
-    width: 70%;
     border: 1px solid #e4d9d1;
     margin: 10px;
     padding: 20px 25px;
+    justify-content: space-between;
 }
 
-
-
 .title{
-    font-family: 'Lato', sans-serif;
     padding-bottom: 5% ;
     border-bottom: 3px solid #6ebe3b;
 }
@@ -37,9 +51,8 @@
     color: #6ebe3b;   
 }
 
-.infos{
-    font-size: 15px;
-    line-height: 26px;
+.recommendationText{
+    line-height: 2;
 }
 
 .otherInfo{

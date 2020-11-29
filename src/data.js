@@ -132,7 +132,7 @@ export const recipes = {
             "confectioner's sugar"
         ],
         "cookingInstructions": [
-            "Preheat oven to 350º. Line a rimmed baking sheet with parchment paper and coat with nonstick spray.",
+            "Preheat oven to 350º. Line a rimmed baking sheet with parchment paper and coat with nonstick spray. ",
             "Thoroughly combine cake ingredients in a large mixing bowl. Spread batter evenly in pan. Bake 13-16 minutes or until top springs back when touched.",
             "Immediately loosen cake from edges of pan; turn over onto a clean towel sprinkled with powdered (confectioner’s) sugar. Carefully peel off parchment paper and roll cake in towel, starting from narrow end. Place on a wire rack to cool.",
             "With a stand or electric mixer whip cream cheese for 30 seconds. Add remaining filling ingredients and blend well. Carefully unroll cake and remove towel. Spread cake with filling and re-roll. Keep refrigerated."
@@ -354,7 +354,7 @@ export const recipes = {
         "id": 11,
         "title": "Cream Cheese Topped French Toast with Pumpkin Spiced Cream Cheese",
         "category": "European",
-        "recommendationText": "The flavors of fall are on full display in this indulgent breakfast.",
+        "recommendationText": "The flavors of fall are on full display in this indulgent breakfast with easy found ingredients. Ready in just 1 hour, have a try! Enjoy your delightful morning serve!",
         "images": {
             "recipeDetailUrl": "https://images.albertsons-media.com/is/image/ABS/0_cream-cheese-topped-french-toast-with-pumpkin-spiced-cream-cheese-M2?$recipe-detail-hero-desktop$",
             "recipeCardUrl": "https://images.albertsons-media.com/is/image/ABS/0_cream-cheese-topped-french-toast-with-pumpkin-spiced-cream-cheese-M2?$recipe-card$"
@@ -389,7 +389,7 @@ export const recipes = {
     "12": {
         "id": 12,
         "title": "Broccoli Rabe with Prosciutto",
-        "category": "Low Fat",
+        "category": "Others",
         "recommendationText": "Cooking the broccoli rabe stems for a few minutes before adding the leaves helps ensure that both parts of this crunchy, slightly bitter vegetable are cooked to perfection.",
         "images": {
             "recipeDetailUrl": "https://images.albertsons-media.com/is/image/ABS/4_broccoli-rabe-with-prosciutto-M2?$recipe-detail-hero-desktop$",
@@ -441,7 +441,7 @@ export const recipes = {
     "14": {
         "id": 14,
         "title": "Cilantro-Lime Pasta Salad",
-        "category": "Low Fat",
+        "category": "Others",
         "recommendationText": "This bright salad gets its kick from cayenne pepper and a spicy jalapeño. Remember to wear rubber or plastic gloves when working with chile peppers, to avoid contact with the volatile oils that can burn your skin and eyes.",
         "images": {
             "recipeDetailUrl": "https://images.albertsons-media.com/is/image/ABS/3_cilantro-lime-pasta-salad-M2?$recipe-detail-hero-desktop$",
@@ -517,6 +517,162 @@ export const recipes = {
             "Season boiling water generously with salt. Stir in spaghetti and cook until al dente, about 3 minutes. Reserve 1 cup pasta cooking water, then drain and set aside until sauce is done.",
             "Remove and discard basil sprig from tomato sauce (see recipe tip), then return to medium heat. Add spaghetti to pan and cook, stirring, until coated and warmed through, 1-2 minutes. Add reserved pasta cooking water, 2 tablespoons at a time, until sauce thickens and clings to pasta (see recipe tip). Remove pan from heat and stir in Parmesan. Taste and add salt and black pepper as desired.",
             "Divide spaghetti among serving plates. Remove burrata from container, discarding excess liquid (see recipe tip), then tear into bite-size pieces and arrange over spaghetti. Garnish with chopped basil and dig in!"
+        ]
+    },
+    "16": {
+        "id": 16,
+        "title": "Peach & Ginger Mocktail",
+        "category": "Others",
+        "recommendationText": "Peach and ginger complement each other perfectly, and a little mint takes this recipe to the next level. This delightful pick-me-up mocktail is suitable for all ages and tastes amazing. Ginger beer adds a little fizz, making this an ideal summer treat.",
+        "images": {
+            "recipeDetailUrl": "https://images.albertsons-media.com/is/image/ABS/0_peach---ginger-mocktail-M2?$recipe-detail-hero-desktop$",
+            "recipeCardUrl": "https://images.albertsons-media.com/is/image/ABS/0_peach---ginger-mocktail-M2?$recipe-card$"
+        },
+        "otherInfo": {
+            "servingNumber": 1,
+            "cookTime": "5 mins",
+            "skillLevel": "Easy"
+        },
+        "mainIngredients": [
+            "1/3 cup fresh or frozen peaches (partially thawed)",
+            "5 mint leaves",
+            "4 oz ginger beer",
+            "ice"
+        ],
+        "cookingInstructions": [
+            "In a large glass, muddle mint and peaches. Add ice and ginger beer. Serve."
+        ]
+    },
+    "17": {
+        "id": 17,
+        "title": "Eggnog Irish Coffee Cocktail",
+        "category": "Others",
+        "recommendationText": "Indulge in classic holiday flavors with this comforting Eggnog Irish Coffee Cocktail! Ready in just 10 minutes, this festive, warm cocktail is perfect to enjoy on chilly winter nights during the holiday season. Made with our exclusive Lucerne® holiday eggnog, whipped cream, Signature RESERVE™ Tennessee whiskey and coffee, this simple recipe is sure to sweeten up the holiday season.",
+        "images": {
+            "recipeDetailUrl": "https://images.albertsons-media.com/is/image/ABS/0_eggnog-irish-coffee-cocktail-M2?$recipe-detail-hero-desktop$",
+            "recipeCardUrl": "https://images.albertsons-media.com/is/image/ABS/0_eggnog-irish-coffee-cocktail-M2?$recipe-card$"
+        },
+        "otherInfo": {
+            "servingNumber": 1,
+            "cookTime": "10 mins",
+            "skillLevel": "Medium"
+        },
+        "mainIngredients": [
+            "5 ounces freshly brewed Signature Reserve™ La Pradera Costa Rican coffee",
+            "4 ounces Lucerne® holiday eggnog, warmed",
+            "1.5 ounces Signature RESERVE™ Tennessee whiskey",
+            "1 teaspoon O Organics® pure maple syrup",
+            "1/4 cup Lucerne® whipped cream",
+            "freshly grated nutmeg for garnish"
+        ],
+        "cookingInstructions": [
+            "Whisk to combine coffee, eggnog, whiskey and maple syrup. Pour into a 12-ounce mug and top with whipped cream and nutmeg, if desired. Serve.",
+            "Prefer your drink a little sweeter? Just add an extra touch of the maple syrup.",
+            "Eggnog can be heated on the stovetop in a small sauce pan or in the microwave for about 1 minute."
+        ]
+    },
+    "18": {
+        "id": 18,
+        "title": "Stuffed Endive with Pear, Walnut and Goat Cheese",
+        "category": "European",
+        "recommendationText": "Stuffed with goat cheese, pear and walnuts, this honey-drizzled endive appetizer tastes as sumptuous as it looks! Ready in just 25 minutes, have a try!",
+        "images": {
+            "recipeDetailUrl": "https://images.albertsons-media.com/is/image/ABS/3_stuffed-endive-with-pear--walnut-and-goat-cheese-M2?$recipe-detail-hero-desktop$",
+            "recipeCardUrl": "https://images.albertsons-media.com/is/image/ABS/3_stuffed-endive-with-pear--walnut-and-goat-cheese-M2?$recipe-card$"
+        },
+        "otherInfo": {
+            "servingNumber": 6,
+            "cookTime": "25 mins",
+            "skillLevel": "Advanced"
+        },
+        "mainIngredients": [
+            "1 tablespoon olive oil",
+            "2 teaspoons lemon juice",
+            "Ground pepper to taste",
+            "Salt to taste",
+            "1 firm medium pear such as Bartlett, thinly sliced lengthwise",
+            "¼ cup coarsely chopped walnuts (toasted if desired",
+            "¼ cup loosely packed fresh parsley leaves",
+            "12 endive leaves (1 large head)",
+            "4 ounces goat cheese, crumbled",
+            "Honey (optional)"
+        ],
+        "cookingInstructions": [
+            "In a medium bowl whisk together olive oil and lemon juice. Season with salt and pepper. Add pear, walnuts, parsley and goat cheese. Toss to coat.",
+            "Spoon pear mixture into endive leaves. Arrange stuffed endive on a serving platter. If desired, drizzle with honey."
+        ]
+    },
+    "19": {
+        "id": 19,
+        "title": "Ground Sirloin & Spinach Empanadas",
+        "category": "Asian",
+        "recommendationText": "Empanadas are fantastic for meals or appetizers! Our Grilled Sirloin & Spinach Empanadas recipe uses unexpected ingredients with a delicious result. Double this recipe to feed a crowd.",
+        "images": {
+            "recipeDetailUrl": "https://images.albertsons-media.com/is/image/ABS/0_ground-sirloin---spinach-empanadas-M2?$recipe-detail-hero-desktop$",
+            "recipeCardUrl": "https://images.albertsons-media.com/is/image/ABS/0_ground-sirloin---spinach-empanadas-M2?$recipe-card$"
+        },
+        "otherInfo": {
+            "servingNumber": 10,
+            "cookTime": "25 mins",
+            "skillLevel": "Medium"
+        },
+        "mainIngredients": [
+            "1/2 cup diced onion",
+            "1/2 cup diced red bell pepper",
+            "8 oz. ground sirloin",
+            "1 tsp ground cumin",
+            "1/4 tsp kosher salt",
+            "1/8 tsp ground black pepper",
+            "1 cup baby spinach (roughly chopped)",
+            "1 12-oz. Signature Kitchens® Biscuits",
+            "1 egg",
+            "1 tsp water"
+        ],
+        "cookingInstructions": [
+            "Coat a large sauté pan with non-stick cooking spray. Add onion and pepper. Cook 2-3 minutes, until onions are slightly translucent. Add ground sirloin, cumin, salt and pepper. Continue to cook until ground beef is done, then stir in spinach (about 8 minutes). Drain excess fat. Remove from heat to slightly cool. ",
+            "Preheat oven to 400°. Between 2 sheets of parchment paper, roll one biscuit into a 5 to 6-inch circle. Add 2 tablespoons filling to one side of the round. Fold other side of dough over the filling and press to seal the edges of the dough together, creating a half moon shape.",
+            "Beat egg and water together. Brush empanada with egg wash. Repeat process until all empanadas are finished. ",
+            "Coat a rimmed baking sheet with non-stick cooking spray. Add empanadas and bake about 10 minutes, until golden brown."
+        ]
+    },
+    "20": {
+        "id": 20,
+        "title": "Carrot-Tahini Soup with Homemade Sesame Crackers",
+        "category": "American",
+        "recommendationText": "Roasted carrots go from side dish to superstar in this cozy vegetarian soup made rich with nutty tahini, a toasted sesame seed paste. Chef Taylor also shows us how unbelievably easy it is to make golden, crisp crackers at home. The best part is breaking the one giant cracker into big shards—dunk the crackers or crumble them over the soup and enjoy!  ",
+        "images": {
+            "recipeDetailUrl": "https://images.albertsons-media.com/is/image/ABS/1_carrot-tahini-soup-with-homemade-sesame-crackers-ik-M2?$recipe-detail-hero-desktop$",
+            "recipeCardUrl": "https://images.albertsons-media.com/is/image/ABS/1_carrot-tahini-soup-with-homemade-sesame-crackers-ik-M2?$recipe-card$"
+        },
+        "otherInfo": {
+            "servingNumber": 4,
+            "cookTime": "45 mins",
+            "skillLevel": "Medium"
+        },
+        "mainIngredients": [
+            "1 cup flour",
+            "1 ounce honey",
+            "1 1/4 pounds carrots",
+            "2 lemons",
+            "1/4 ounce cilantro",
+            "1/4 ounce parsley",
+            "1 yellow onion",
+            "3 cloves garlic",
+            "1/2 teaspoon black sesame seeds",
+            "1 teaspoon ground cumin",
+            "1 teaspoon ground ginger",
+            "1 1/2 tablespoons tomato paste",
+            "1/2 cup tahini",
+            "32 ounces vegetable stock",
+            "1 parchment paper"
+        ],
+        "cookingInstructions": [
+            "Preheat oven to 400°F. In a small bowl, reserve 2 teaspoons flour for rolling out dough. In a large bowl, stir together remaining flour and .5 teaspoon salt. Add honey, .33 cup water, and 2 tablespoons olive oil, and stir vigorously until dough forms a cohesive ball. Cover bowl with plastic wrap and let rest until Step 3.",
+            "Rinse all produce. Peel carrots, then cut into .5-inch dice (see recipe tip). Halve lemons. Roughly chop cilantro and parsley, keeping stems and leaves separate. Peel onion, halve, and cut into small dice. Mince garlic. On a baking sheet, toss carrots with 1.5 tablespoons olive oil, .75 teaspoon salt, and pepper as desired. Line a separate baking sheet with parchment paper. ",
+            "Sprinkle reserved flour onto a clean, dry surface, coating a rolling pin with a thin layer. Roll dough into a rectangular shape, rotating frequently and working from center to edges, until .125-inch thick. Place dough on parchment-lined baking sheet, pierce all over with a fork, and sprinkle with sesame seeds, pressing to adhere. Bake crackers and carrots until crackers are crisp and carrots are tender, 21-24 minutes.",
+            "While carrots and crackers bake, heat 1 tablespoon olive oil in a large pot over medium-high heat. When oil is shimmering, add spice mix, parsley stems, cilantro stems, onion, and garlic. Cook, stirring, until softened, 3-4 minutes. Stir in tomato paste to combine, 1 minute. Add tahini, vegetable stock, juice of 1.5 lemons, 2 cups water, and 1 teaspoon salt (save remaining lemon for a simple vinaigrette).  ",
+            "Increase heat under soup to high and bring to a boil, then reduce heat to medium high and simmer until flavors have melded, 7-8 minutes. Remove from heat and cover to keep warm. Once baked, add carrots to blender along with soup and process until completely smooth, 1 minute (see recipe tip). Adjust consistency by adding more water as needed until smooth and pourable. Taste and add salt and pepper as desired. ",
+            "Divide carrot-tahini soup among serving bowls and garnish with parsley leaves and cilantro leaves. Break sesame cracker into large pieces and serve with soup, or break into small pieces and sprinkle over. Dig in! "
         ]
     }
 }

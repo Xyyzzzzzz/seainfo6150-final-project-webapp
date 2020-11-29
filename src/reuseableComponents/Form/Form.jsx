@@ -13,33 +13,34 @@ const Form = () => {
     <div className={styles.container}>{
       submittedForm ? (
         <div>
-          <p>Thank you for your Subscribe! You are all set. And your form entries are as followings:</p>
-          <p>Name: {submittedForm.get("name")}</p>
-          <p>Email Address: {submittedForm.get("email")}</p>
-          <p>Telephone Number: {submittedForm.get("telephone")}</p>
-          <p>Selected Recipe Category: {submittedForm.get("selectedCategory")}</p>
-          <p>Subscribe Method: {submittedForm.get("subcribeMethod")}</p>
-          <p>Subcribe Language: {submittedForm.get("subcribeLanguage")}</p>
+          <div>
+            <p>Thank you for your Subscribe! You are all set. Your form entries are as followings:</p>
+          </div>
+          <div className={styles.entries}>
+            <p>Name: {submittedForm.get("name")}</p>
+            <p>Email Address: {submittedForm.get("email")}</p>
+            <p>Telephone Number: {submittedForm.get("telephone")}</p>
+            <p>Selected Recipe Category: {submittedForm.get("selectedCategory")}</p>
+            <p>Subscribe Method: {submittedForm.get("subcribeMethod")}</p>
+            <p>Subcribe Language: {submittedForm.get("subcribeLanguage")}</p>
+          </div>
         </div>
       ) : (
           <form onSubmit={onSubmit}>
             <div className={styles.contactInfo}>
               <div className={styles.inputItem}>
-                <label htmlFor="name">Name</label>
-                <input required type="text" name="name" placeholder="Please enter your name." />
+                <label>Name <input required type="text" name="name" placeholder="Please enter your name." /></label>
               </div>
               <div className={styles.inputItem}>
-                <label htmlFor="email">Email Address</label>
-                <input required type="email" name="email" placeholder="Please enter your email address." />
+                <label>Email Address  <input required type="email" name="email" placeholder="Please enter your email address." /></label>
               </div>
               <div className={styles.inputItem}>
-                <label htmlFor="telephone">Telephone</label>
-                <input required type="tel" name="telephone" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" placeholder="Please enter your telephone number in this format 'XXX-XXX-XXXX'." />
+                <label>Telephone <input required type="tel" name="telephone" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" placeholder="Please enter your telephone number in this format 'XXX-XXX-XXXX'." /></label>
               </div>
             </div>
             <div className={styles.subcribePreferences}>
               <div className={styles.selectedCategory}>
-                <p htmlFor="selectedCategory">Please select one category you want to subscribe.</p>
+                <p>Please select one category you want to subscribe.</p>
                 <label><input type="radio" name="selectedCategory" value="American" required />American</label>
                 <label><input type="radio" name="selectedCategory" value="Asian" required />Asian</label>
                 <label><input type="radio" name="selectedCategory" value="European" required />European</label>
@@ -65,8 +66,8 @@ const Form = () => {
               </div>
             </div>
             <button className={styles.subscribe}>Subscribe</button>
-          </form >)
-    }
+          </form >
+        )}
     </div >
   )
 }

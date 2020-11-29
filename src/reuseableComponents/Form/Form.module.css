@@ -29,3 +29,15 @@
 .subscribe{
     margin-top: 30px;
 }
+
+label{
+    display: block;
+}
+
+.inputItem input{
+    display: block;
+}
+
+.entries{
+    margin-top: 50px;
+}

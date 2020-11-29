@@ -8,11 +8,9 @@ const RecipeCategoryPage = ({ categoryName, recipes }) => {
         <div>
             <PageHeader header={categoryName} />
             <div className={styles.container}>
-                <li>
-                    {recipes.map(recipe => (
-                        <RecipeItemDetailsCard recipe={recipe} />
-                    ))}
-                </li>
+                {recipes.map(recipe => (
+                    <RecipeItemDetailsCard recipe={recipe} />
+                ))}
             </div>
         </div>
     )
