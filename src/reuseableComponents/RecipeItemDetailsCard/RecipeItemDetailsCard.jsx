@@ -1,5 +1,4 @@
 import React from 'react'
-import { Link } from "react-router-dom";
 import styles from './RecipeItemDetailsCard.module.css'
 import { convertedText } from '../../utils/utils.js'
 
@@ -11,7 +10,7 @@ const RecipeItemDetailsCard = ({ recipe }) => {
             <img className={styles.image} src={recipe.images.recipeCardUrl} alt={recipe.title}></img>
             <div className={styles.details}>
                 <div className={styles.title}>
-                    <Link to={{ pathname: `/details/${recipe.id}` }}>{recipe.title.toUpperCase()}</Link>
+                    <a href={`/details/${recipe.id}`}>{recipe.title.toUpperCase()}</a>
                 </div>
                 <div className={styles.recommendationText}>
                     <p >{convertedRecommendationText}</p>

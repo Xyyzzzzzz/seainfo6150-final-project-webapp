@@ -11,17 +11,17 @@ import ErrorPage from './pages/ErrorPage/ErrorPage.jsx'
 import Nav from "./reuseableComponents/Nav/Nav";
 import AppHeader from "./reuseableComponents/AppHeader/AppHeader";
 import ContactUsPage from "./pages/ContactUsPage/ContactUsPage";
-import { recipesInCategory } from './utils/utils';
+import { convertRecipesInCategory } from './utils/utils';
 import { recipes } from "./data";
 
 function App() {
   // if the data cannot be fetched, use the data from data.js
   // const fetchedData = recipes;
-  // const recipesInCategories = recipesInCategory(fetchedData);
+  // const recipesInCategories = convertRecipesInCategory(fetchedData);
 
   const [fetchedData, setFetchedData] = useState();
-  const recipesInCategories = recipesInCategory(fetchedData);
-  console.log(fetchedData)
+  const recipesInCategories = convertRecipesInCategory(fetchedData);
+
   useEffect(() => {
     const fetchData = async () => {
       const response = await fetch("https://run.mocky.io/v3/258f0aa8-e395-4fed-8eaa-347caecfd1f1");

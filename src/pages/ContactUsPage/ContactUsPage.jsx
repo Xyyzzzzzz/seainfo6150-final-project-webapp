@@ -8,17 +8,17 @@ const ContactUsPage = () => {
     return (
         <div>
             <PageHeader header='Contact Us' />
-            <div className={styles.container}>
-                {webContactInfo.map(info => (
-                    <div className={styles.infoCard}>
+            <ul className={styles.container}>
+                {webContactInfo.map((info, index) => (
+                    <li key={index} className={styles.infoCard}>
                         <h3>{info.name}</h3>
                         <p>{info.address}</p>
                         <p>Phone: {info.phone}</p>
                         <p>Fax: {info.fax}</p>
                         <p>Email: {info.email}</p>
-                    </div>
+                    </li>
                 ))}
-            </div>
+            </ul>
         </div>
     )
 };

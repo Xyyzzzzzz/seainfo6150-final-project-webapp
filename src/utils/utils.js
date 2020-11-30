@@ -1,4 +1,4 @@
-export const recipesInCategory = (recipes) => {
+export const convertRecipesInCategory = (recipes) => {
     const recipesInCategory = {};
     for (let recipeId in recipes) {
         const recipe = recipes[recipeId]

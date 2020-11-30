@@ -2,55 +2,611 @@
 
 exports[`renders the home component correctly 1`] = `
 <div>
-  <div>
-    The home page
-    <img
-      alt="tree frog"
-      src="/images/treefrog.jpg"
-    />
-    <div>
-      <form>
-        <label
-          for="myTextId"
+  <div
+    class="container"
+  >
+    <ul>
+      <li>
+        <div
+          class="container"
         >
-          Input
-        </label>
-        <input
-          id="myTextId"
-          name="myText"
-          type="text"
-        />
-        <label
-          for="myDropdownId"
+          <div
+            class="title"
+          >
+            <h3>
+              <a
+                href="/category/American"
+              >
+                American
+              </a>
+            </h3>
+            <p
+              class="viewMore"
+            >
+              <a
+                href="/category/American"
+              >
+                View More
+              </a>
+            </p>
+          </div>
+          <ul
+            class="recipes"
+          >
+            <li>
+              <div
+                class="container"
+              >
+                <img
+                  alt="Roasted Turkey with Smoked Paprika"
+                  class="image"
+                  src="https://images.albertsons-media.com/is/image/ABS/0_roasted-turkey-with-smoked-paprika-M2?$recipe-card$"
+                />
+                <div
+                  class="textWapper"
+                >
+                  <div
+                    class="title"
+                  >
+                    <a
+                      href="/details/1"
+                    >
+                      Roasted Turkey with Smoked Paprika
+                    </a>
+                  </div>
+                  <div
+                    class="cookTime"
+                  >
+                    Cooking Time: 
+                    2 hour
+                  </div>
+                </div>
+              </div>
+            </li>
+            <li>
+              <div
+                class="container"
+              >
+                <img
+                  alt="Pineapple Burger Stack with Avocado Salsa"
+                  class="image"
+                  src="https://images.albertsons-media.com/is/image/ABS/0_pineapple-burger-stack-with-avocado-salsa-M2?$recipe-card$"
+                />
+                <div
+                  class="textWapper"
+                >
+                  <div
+                    class="title"
+                  >
+                    <a
+                      href="/details/2"
+                    >
+                      Pineapple Burger Stack with Avocado Salsa
+                    </a>
+                  </div>
+                  <div
+                    class="cookTime"
+                  >
+                    Cooking Time: 
+                    20 mins
+                  </div>
+                </div>
+              </div>
+            </li>
+            <li>
+              <div
+                class="container"
+              >
+                <img
+                  alt="Grilled Butterflied Open Nature Lamb Leg with Mint-Pistachio Pesto"
+                  class="image"
+                  src="https://images.albertsons-media.com/is/image/ABS/0_grilled-butterflied-open-nature--lamb-leg-with-mint-pistachio-pesto-M2?$recipe-card$"
+                />
+                <div
+                  class="textWapper"
+                >
+                  <div
+                    class="title"
+                  >
+                    <a
+                      href="/details/3"
+                    >
+                      Grilled Butterflied Open Nature Lamb Leg with Mint-Pistachio Pesto
+                    </a>
+                  </div>
+                  <div
+                    class="cookTime"
+                  >
+                    Cooking Time: 
+                    1 hour, 20 mins
+                  </div>
+                </div>
+              </div>
+            </li>
+            <li>
+              <div
+                class="container"
+              >
+                <img
+                  alt="Pumpkin and Chocolate Roll"
+                  class="image"
+                  src="https://images.albertsons-media.com/is/image/ABS/0_pumpkin-and-chocolate-roll-M2?$recipe-card$"
+                />
+                <div
+                  class="textWapper"
+                >
+                  <div
+                    class="title"
+                  >
+                    <a
+                      href="/details/4"
+                    >
+                      Pumpkin and Chocolate Roll
+                    </a>
+                  </div>
+                  <div
+                    class="cookTime"
+                  >
+                    Cooking Time: 
+                    1 hour, 30 mins
+                  </div>
+                </div>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </li>
+      <li>
+        <div
+          class="container"
         >
-          Input
-        </label>
-        <select
-          id="myDropdownId"
-          name="myDropdown"
+          <div
+            class="title"
+          >
+            <h3>
+              <a
+                href="/category/Asian"
+              >
+                Asian
+              </a>
+            </h3>
+            <p
+              class="viewMore"
+            >
+              <a
+                href="/category/Asian"
+              >
+                View More
+              </a>
+            </p>
+          </div>
+          <ul
+            class="recipes"
+          >
+            <li>
+              <div
+                class="container"
+              >
+                <img
+                  alt="Potato and Cauliflower Curry"
+                  class="image"
+                  src="https://images.albertsons-media.com/is/image/ABS/0_potato-and-cauliflower-curry-M2?$recipe-card$"
+                />
+                <div
+                  class="textWapper"
+                >
+                  <div
+                    class="title"
+                  >
+                    <a
+                      href="/details/5"
+                    >
+                      Potato and Cauliflower Curry
+                    </a>
+                  </div>
+                  <div
+                    class="cookTime"
+                  >
+                    Cooking Time: 
+                    20 mins
+                  </div>
+                </div>
+              </div>
+            </li>
+            <li>
+              <div
+                class="container"
+              >
+                <img
+                  alt="Air Fryer Crispy Tofu and Vegetables"
+                  class="image"
+                  src="https://images.albertsons-media.com/is/image/ABS/0_air-fryer-crispy-tofu-and-vegetables-M2?$recipe-card$"
+                />
+                <div
+                  class="textWapper"
+                >
+                  <div
+                    class="title"
+                  >
+                    <a
+                      href="/details/6"
+                    >
+                      Air Fryer Crispy Tofu and Vegetables
+                    </a>
+                  </div>
+                  <div
+                    class="cookTime"
+                  >
+                    Cooking Time: 
+                    50 mins
+                  </div>
+                </div>
+              </div>
+            </li>
+            <li>
+              <div
+                class="container"
+              >
+                <img
+                  alt="Beef Lo Mein with Chinese Broccoli and Baby Corn"
+                  class="image"
+                  src="https://images.albertsons-media.com/is/image/ABS/1_beef-lo-mein-with-chinese-broccoli-and-baby-corn-jh-M2?$recipe-card$"
+                />
+                <div
+                  class="textWapper"
+                >
+                  <div
+                    class="title"
+                  >
+                    <a
+                      href="/details/7"
+                    >
+                      Beef Lo Mein with Chinese Broccoli and Baby Corn
+                    </a>
+                  </div>
+                  <div
+                    class="cookTime"
+                  >
+                    Cooking Time: 
+                    25 mins
+                  </div>
+                </div>
+              </div>
+            </li>
+            <li>
+              <div
+                class="container"
+              >
+                <img
+                  alt="Chicken and Coconut Soup with Mushrooms and Sticky Rice"
+                  class="image"
+                  src="https://images.albertsons-media.com/is/image/ABS/1_chicken-and-coconut-soup-with-mushrooms-and-sticky-rice-z0-M2?$recipe-card$"
+                />
+                <div
+                  class="textWapper"
+                >
+                  <div
+                    class="title"
+                  >
+                    <a
+                      href="/details/8"
+                    >
+                      Chicken and Coconut Soup with Mushrooms and Sticky Rice
+                    </a>
+                  </div>
+                  <div
+                    class="cookTime"
+                  >
+                    Cooking Time: 
+                    45 mins
+                  </div>
+                </div>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </li>
+      <li>
+        <div
+          class="container"
         >
-          <option
-            value="foo"
+          <div
+            class="title"
           >
-            Foo
-          </option>
-          <option
-            value="bar"
+            <h3>
+              <a
+                href="/category/European"
+              >
+                European
+              </a>
+            </h3>
+            <p
+              class="viewMore"
+            >
+              <a
+                href="/category/European"
+              >
+                View More
+              </a>
+            </p>
+          </div>
+          <ul
+            class="recipes"
           >
-            Bar
-          </option>
-          <option
-            value="baz"
+            <li>
+              <div
+                class="container"
+              >
+                <img
+                  alt="Beer and Beef Shepherd's Pie"
+                  class="image"
+                  src="https://images.albertsons-media.com/is/image/ABS/0_beer-and-beef-shepherd-s-pie-M2?$recipe-card$"
+                />
+                <div
+                  class="textWapper"
+                >
+                  <div
+                    class="title"
+                  >
+                    <a
+                      href="/details/9"
+                    >
+                      Beer and Beef Shepherd's Pie
+                    </a>
+                  </div>
+                  <div
+                    class="cookTime"
+                  >
+                    Cooking Time: 
+                    1 hour
+                  </div>
+                </div>
+              </div>
+            </li>
+            <li>
+              <div
+                class="container"
+              >
+                <img
+                  alt="Irish Mashed Potatoes"
+                  class="image"
+                  src="https://images.albertsons-media.com/is/image/ABS/0_irish-mashed-potatoes-M2?$recipe-card$"
+                />
+                <div
+                  class="textWapper"
+                >
+                  <div
+                    class="title"
+                  >
+                    <a
+                      href="/details/10"
+                    >
+                      Irish Mashed Potatoes
+                    </a>
+                  </div>
+                  <div
+                    class="cookTime"
+                  >
+                    Cooking Time: 
+                    35 mins
+                  </div>
+                </div>
+              </div>
+            </li>
+            <li>
+              <div
+                class="container"
+              >
+                <img
+                  alt="Cream Cheese Topped French Toast with Pumpkin Spiced Cream Cheese"
+                  class="image"
+                  src="https://images.albertsons-media.com/is/image/ABS/0_cream-cheese-topped-french-toast-with-pumpkin-spiced-cream-cheese-M2?$recipe-card$"
+                />
+                <div
+                  class="textWapper"
+                >
+                  <div
+                    class="title"
+                  >
+                    <a
+                      href="/details/11"
+                    >
+                      Cream Cheese Topped French Toast with Pumpkin Spiced Cream Cheese
+                    </a>
+                  </div>
+                  <div
+                    class="cookTime"
+                  >
+                    Cooking Time: 
+                    1 hour
+                  </div>
+                </div>
+              </div>
+            </li>
+            <li>
+              <div
+                class="container"
+              >
+                <img
+                  alt="Fresh Spaghetti with Tomato Sauce and Burrata"
+                  class="image"
+                  src="https://images.albertsons-media.com/is/image/ABS/1_fresh-spaghetti-with-tomato-sauce-and-burrata-aW-M2?$recipe-card$"
+                />
+                <div
+                  class="textWapper"
+                >
+                  <div
+                    class="title"
+                  >
+                    <a
+                      href="/details/15"
+                    >
+                      Fresh Spaghetti with Tomato Sauce and Burrata
+                    </a>
+                  </div>
+                  <div
+                    class="cookTime"
+                  >
+                    Cooking Time: 
+                    30 mins
+                  </div>
+                </div>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </li>
+      <li>
+        <div
+          class="container"
+        >
+          <div
+            class="title"
           >
-            Baz
-          </option>
-        </select>
-        <input
-          type="submit"
-          value="Send it"
-        />
-      </form>
-    </div>
+            <h3>
+              <a
+                href="/category/Others"
+              >
+                Others
+              </a>
+            </h3>
+            <p
+              class="viewMore"
+            >
+              <a
+                href="/category/Others"
+              >
+                View More
+              </a>
+            </p>
+          </div>
+          <ul
+            class="recipes"
+          >
+            <li>
+              <div
+                class="container"
+              >
+                <img
+                  alt="Broccoli Rabe with Prosciutto"
+                  class="image"
+                  src="https://images.albertsons-media.com/is/image/ABS/4_broccoli-rabe-with-prosciutto-M2?$recipe-card$"
+                />
+                <div
+                  class="textWapper"
+                >
+                  <div
+                    class="title"
+                  >
+                    <a
+                      href="/details/12"
+                    >
+                      Broccoli Rabe with Prosciutto
+                    </a>
+                  </div>
+                  <div
+                    class="cookTime"
+                  >
+                    Cooking Time: 
+                    15 mins
+                  </div>
+                </div>
+              </div>
+            </li>
+            <li>
+              <div
+                class="container"
+              >
+                <img
+                  alt="Coffee Smoothie Bowl"
+                  class="image"
+                  src="https://images.albertsons-media.com/is/image/ABS/0_coffee-smoothie-bowl-M2?$recipe-card$"
+                />
+                <div
+                  class="textWapper"
+                >
+                  <div
+                    class="title"
+                  >
+                    <a
+                      href="/details/13"
+                    >
+                      Coffee Smoothie Bowl
+                    </a>
+                  </div>
+                  <div
+                    class="cookTime"
+                  >
+                    Cooking Time: 
+                    15 mins
+                  </div>
+                </div>
+              </div>
+            </li>
+            <li>
+              <div
+                class="container"
+              >
+                <img
+                  alt="Cilantro-Lime Pasta Salad"
+                  class="image"
+                  src="https://images.albertsons-media.com/is/image/ABS/3_cilantro-lime-pasta-salad-M2?$recipe-card$"
+                />
+                <div
+                  class="textWapper"
+                >
+                  <div
+                    class="title"
+                  >
+                    <a
+                      href="/details/14"
+                    >
+                      Cilantro-Lime Pasta Salad
+                    </a>
+                  </div>
+                  <div
+                    class="cookTime"
+                  >
+                    Cooking Time: 
+                    30 mins
+                  </div>
+                </div>
+              </div>
+            </li>
+            <li>
+              <div
+                class="container"
+              >
+                <img
+                  alt="Peach & Ginger Mocktail"
+                  class="image"
+                  src="https://images.albertsons-media.com/is/image/ABS/0_peach---ginger-mocktail-M2?$recipe-card$"
+                />
+                <div
+                  class="textWapper"
+                >
+                  <div
+                    class="title"
+                  >
+                    <a
+                      href="/details/16"
+                    >
+                      Peach & Ginger Mocktail
+                    </a>
+                  </div>
+                  <div
+                    class="cookTime"
+                  >
+                    Cooking Time: 
+                    5 mins
+                  </div>
+                </div>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </li>
+    </ul>
   </div>
 </div>
 `;

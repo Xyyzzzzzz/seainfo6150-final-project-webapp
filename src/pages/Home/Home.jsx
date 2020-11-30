@@ -6,8 +6,10 @@ const Home = ({ recipesInCategories }) => {
     return (
         <div className={styles.container}>
             <ul>
-                {Object.keys(recipesInCategories).map(category => (
-                    <RecipeCategoryList recipes={recipesInCategories[category]} category={category} />
+                {Object.keys(recipesInCategories).map((category, index) => (
+                    <li key={index}>
+                        <RecipeCategoryList recipes={recipesInCategories[category]} category={category} />
+                    </li>
                 ))}
             </ul>
         </div>

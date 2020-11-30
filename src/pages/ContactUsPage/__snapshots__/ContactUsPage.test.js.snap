@@ -1,0 +1,91 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders the Contact Us page correctly 1`] = `
+<div>
+  <div>
+    <div
+      class="container"
+    >
+      <div
+        class="heading"
+      >
+        <h1
+          class="name"
+        >
+          Contact Us
+        </h1>
+      </div>
+    </div>
+    <ul
+      class="container"
+    >
+      <li
+        class="infoCard"
+      >
+        <h3>
+          Registered Office
+        </h3>
+        <p>
+          Recipe press road, Sunnyvale, CA
+        </p>
+        <p>
+          Phone: 
+          +123 456 7890
+        </p>
+        <p>
+          Fax: 
+          +123 456 7890
+        </p>
+        <p>
+          Email: 
+          info@recipepress.com
+        </p>
+      </li>
+      <li
+        class="infoCard"
+      >
+        <h3>
+          Our Restaurant
+        </h3>
+        <p>
+          Recipe press road, Sunnyvale, CA
+        </p>
+        <p>
+          Phone: 
+          +123 456 7890
+        </p>
+        <p>
+          Fax: 
+          +123 456 7890
+        </p>
+        <p>
+          Email: 
+          info@recipepress.com
+        </p>
+      </li>
+      <li
+        class="infoCard"
+      >
+        <h3>
+          Other Office
+        </h3>
+        <p>
+          Recipe press road, Sunnyvale, CA
+        </p>
+        <p>
+          Phone: 
+          +123 456 7890
+        </p>
+        <p>
+          Fax: 
+          +123 456 7890
+        </p>
+        <p>
+          Email: 
+          info@recipepress.com
+        </p>
+      </li>
+    </ul>
+  </div>
+</div>
+`;

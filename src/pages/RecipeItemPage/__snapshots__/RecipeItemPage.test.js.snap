@@ -1,0 +1,169 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders the Recipe Item page correctly 1`] = `
+<div>
+  <div
+    class="container"
+  >
+    <img
+      alt="Roasted Turkey with Smoked Paprika"
+      class="image"
+      src="https://images.albertsons-media.com/is/image/ABS/0_roasted-turkey-with-smoked-paprika-M2?$recipe-detail-hero-desktop$"
+    />
+    <h2>
+      Roasted Turkey with Smoked Paprika
+    </h2>
+    <div
+      class="textWrapper"
+    >
+      <div
+        class="overview"
+      >
+        <div
+          class="recommendationText"
+        >
+          Try this recipe for the perfect roasted turkey, made with a variety of herbs and spices. Perfect for the holiday season, the paprika adds incredible flavor for a slight twist on the classic entrée.
+        </div>
+        <div
+          class="otherInfo"
+        >
+          <div>
+            Serving Number: 
+            8
+          </div>
+          <div>
+            Cooking Time: 
+            2 hour
+          </div>
+          <div>
+            Skill Level: 
+            Medium
+          </div>
+        </div>
+      </div>
+      <div
+        class="details"
+      >
+        <div
+          class="ingredients"
+        >
+          <h3>
+            Main Ingredients
+          </h3>
+          <ul>
+            <li
+              class="ingredient"
+            >
+              2 tablespoons Italian seasoning
+            </li>
+            <li
+              class="ingredient"
+            >
+              2 tablespoons sea salt
+            </li>
+            <li
+              class="ingredient"
+            >
+              1 tablespoon coarsely ground black pepper
+            </li>
+            <li
+              class="ingredient"
+            >
+              1 tablespoon smoked paprika
+            </li>
+            <li
+              class="ingredient"
+            >
+              2 teaspoons garlic powder
+            </li>
+            <li
+              class="ingredient"
+            >
+              2 teaspoons ground mustard
+            </li>
+            <li
+              class="ingredient"
+            >
+              1 whole turkey (12 to 14 pounds), fresh or frozen, thawed
+            </li>
+            <li
+              class="ingredient"
+            >
+              2 ribs celery
+            </li>
+            <li
+              class="ingredient"
+            >
+              1 onion, quartered
+            </li>
+            <li
+              class="ingredient"
+            >
+              1 orange, quartered
+            </li>
+            <li
+              class="ingredient"
+            >
+              2 bay leaves
+            </li>
+            <li
+              class="ingredient"
+            >
+              1 tablespoon olive oil
+            </li>
+          </ul>
+        </div>
+        <div
+          class="instructions"
+        >
+          <h3>
+            Cooking Instructions
+          </h3>
+          <ol>
+            <li
+              class="instruction"
+            >
+              Step 
+              1
+              : 
+              Place oven rack in lowest position. Preheat oven to 325°. Place roasting rack in shallow roasting pan. Mix first 6 ingredients in small bowl.
+            </li>
+            <li
+              class="instruction"
+            >
+              Step 
+              2
+              : 
+              Rinse turkey; pat dry. Place turkey, breast-side up, in prepared pan. Sprinkle 1 tablespoon of the seasoning mixture inside turkey. Stuff with celery, onion, orange and bay leaves.
+            </li>
+            <li
+              class="instruction"
+            >
+              Step 
+              3
+              : 
+              Brush turkey breast with oil. Spread remaining seasoning mixture over entire surface and under skin of turkey. Add 1/2 cup water to pan; cover loosely with heavy duty foil.
+            </li>
+            <li
+              class="instruction"
+            >
+              Step 
+              4
+              : 
+              Roast one hour. Remove foil. Roast 2 to 2 ½ hours longer or until internal temperature reaches 165° (175° in thigh), basting occasionally with pan juices.
+            </li>
+            <li
+              class="instruction"
+            >
+              Step 
+              5
+              : 
+              Remove turkey from oven. Let stand 20 minutes. Transfer to platter or carving board and slice. Reserve pan juices to make gravy or to serve with turkey
+            </li>
+          </ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;

@@ -7,11 +7,13 @@ const RecipeCategoryPage = ({ categoryName, recipes }) => {
     return (
         <div>
             <PageHeader header={categoryName} />
-            <div className={styles.container}>
+            <ul className={styles.container}>
                 {recipes.map(recipe => (
-                    <RecipeItemDetailsCard recipe={recipe} />
+                    <li key={recipe.id}>
+                        <RecipeItemDetailsCard recipe={recipe} />
+                    </li>
                 ))}
-            </div>
+            </ul>
         </div>
     )
 };
