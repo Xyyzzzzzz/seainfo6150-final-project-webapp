@@ -1,3 +1,27 @@
+export const webContactInfo = [
+    {
+        name: "Registered Office",
+        address: 'Recipe press road, Sunnyvale, CA',
+        phone: '+123 456 7890',
+        fax: '+123 456 7890',
+        email: 'info@recipepress.com',
+    },
+    {
+        name: "Our Restaurant",
+        address: 'Recipe press road, Sunnyvale, CA',
+        phone: '+123 456 7890',
+        fax: '+123 456 7890',
+        email: 'info@recipepress.com',
+    },
+    {
+        name: "Other Office",
+        address: 'Recipe press road, Sunnyvale, CA',
+        phone: '+123 456 7890',
+        fax: '+123 456 7890',
+        email: 'info@recipepress.com',
+    },
+];
+
 export const recipes = {
     "1": {
         "id": 1,
@@ -637,6 +661,33 @@ export const recipes = {
     },
     "20": {
         "id": 20,
+        "title": "Gooey Chocolate Pudding Cakes",
+        "category": "Others",
+        "recommendationText": "These comfort food classics get a gourmet twist from chocolate-hazelnut spread. They’re heavenly served warm with ice cream and berries.",
+        "images": {
+            "recipeDetailUrl": "https://images.albertsons-media.com/is/image/ABS/3_gooey-chocolate-pudding-cakes-M2?$recipe-detail-hero-desktop$",
+            "recipeCardUrl": "https://images.albertsons-media.com/is/image/ABS/3_gooey-chocolate-pudding-cakes-M2?$recipe-card$"
+        },
+        "otherInfo": {
+            "servingNumber": 6,
+            "cookTime": "40 mins",
+            "skillLevel": "Medium"
+        },
+        "mainIngredients": [
+            "½ cup all-purpose flour",
+            "¼ cup unsweetened cocoa powder, , plus more for garnish",
+            "¼ cup chocolate-hazelnut spread",
+            "1 teaspoon vanilla extract",
+            "¾ teaspoon baking powder,"
+        ],
+        "cookingInstructions": [
+            "Preheat oven to 350°F. In a medium bowl, combine flour, 1/4 cup sugar, baking powder and salt. Add milk, oil and vanilla. Whisk until smooth. Stir in chocolate-hazelnut spread and chocolate chips.",
+            "Divide batter evenly among six 5- to 8-ounce ovenproof bowls or ramekins. Place on a large rimmed baking sheet. Set aside. In the same bowl used for the batter, stir together the remaining 1/2 cup sugar and the cocoa. Gradually stir in boiling water. Pour evenly over the batter in the dishes.",
+            "Bake, uncovered, for 20 minutes or until a wooden toothpick inserted into cake portion comes out clean. Serve warm with ice cream and strawberries, if desired. Sprinkle with additional cocoa powder, if desired."
+        ]
+    },
+    "21": {
+        "id": 21,
         "title": "Carrot-Tahini Soup with Homemade Sesame Crackers",
         "category": "American",
         "recommendationText": "Roasted carrots go from side dish to superstar in this cozy vegetarian soup made rich with nutty tahini, a toasted sesame seed paste. Chef Taylor also shows us how unbelievably easy it is to make golden, crisp crackers at home. The best part is breaking the one giant cracker into big shards—dunk the crackers or crumble them over the soup and enjoy!  ",
@@ -673,6 +724,32 @@ export const recipes = {
             "While carrots and crackers bake, heat 1 tablespoon olive oil in a large pot over medium-high heat. When oil is shimmering, add spice mix, parsley stems, cilantro stems, onion, and garlic. Cook, stirring, until softened, 3-4 minutes. Stir in tomato paste to combine, 1 minute. Add tahini, vegetable stock, juice of 1.5 lemons, 2 cups water, and 1 teaspoon salt (save remaining lemon for a simple vinaigrette).  ",
             "Increase heat under soup to high and bring to a boil, then reduce heat to medium high and simmer until flavors have melded, 7-8 minutes. Remove from heat and cover to keep warm. Once baked, add carrots to blender along with soup and process until completely smooth, 1 minute (see recipe tip). Adjust consistency by adding more water as needed until smooth and pourable. Taste and add salt and pepper as desired. ",
             "Divide carrot-tahini soup among serving bowls and garnish with parsley leaves and cilantro leaves. Break sesame cracker into large pieces and serve with soup, or break into small pieces and sprinkle over. Dig in! "
+        ]
+    },
+    "22": {
+        "id": 22,
+        "title": "Mexican Hot Cocoa Whipped Cream",
+        "category": "Others",
+        "recommendationText": "Mexican Hot Cocoa Whipped Cream - Easy whipped cream with things you have in your pantry! This is a MUST TRY on hot cocoa! This will be on your list to make every year. Definitely use when company is coming.",
+        "images": {
+            "recipeDetailUrl": "https://images.albertsons-media.com/is/image/ABS/0_mexican-hot-cocoa-whipped-cream-M2?$recipe-detail-hero-desktop$",
+            "recipeCardUrl": "https://images.albertsons-media.com/is/image/ABS/0_mexican-hot-cocoa-whipped-cream-M2?$recipe-card$"
+        },
+        "otherInfo": {
+            "servingNumber": 32,
+            "cookTime": "5 mins",
+            "skillLevel": "Easy"
+        },
+        "mainIngredients": [
+            "6 tablespoons raw sugar",
+            "4 tablespoons unsweetened cocoa powder",
+            "1 teaspoon ground cinnamon",
+            "pinch cayenne pepper",
+            "2 cups cold Lucerne™ Heavy Whipping Cream"
+        ],
+        "cookingInstructions": [
+            "In a mixing bowl, beat all ingredients until soft peaks are formed. Add cayenne to the desired heat preference. Refrigerate until ready to use. ",
+            "Delicious on chocolate pies and ice cream!"
         ]
     }
 }

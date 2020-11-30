@@ -10,7 +10,6 @@ const RecipeItemCard = ({ recipe }) => {
                 <div className={styles.title}>
                     <Link to={{ pathname: `/details/${recipe.id}` }}>{recipe.title}</Link>
                 </div>
-
                 <div className={styles.cookTime}>
                     Cooking Time: {recipe.otherInfo.cookTime}
                 </div>

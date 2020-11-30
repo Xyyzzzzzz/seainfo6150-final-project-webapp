@@ -22,8 +22,7 @@
     }
     .image{
         width: 100%;
-        padding: 30px 0;
-        background-color: rgba(219, 219, 219, 0.5);
+        padding: 15% 0;
     }
 }
 
@@ -58,6 +57,14 @@
 .otherInfo{
     font-size:14px;
     color: rgb(134, 133, 133);
+    line-height: 2;
     display: flex;
-    justify-content: space-between;
+    flex-direction: column;
+}
+
+@media screen and (min-width: 600px) {
+    .otherInfo{
+        flex-direction: row;
+        justify-content: space-between;
+    }
 }

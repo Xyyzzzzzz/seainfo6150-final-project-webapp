@@ -2,30 +2,7 @@ import React from 'react'
 import styles from './ContactUsPage.module.css';
 
 import PageHeader from '../../reuseableComponents/PageHeader/PageHeader';
-
-const webContactInfo = [
-    {
-        name: "Registered Office",
-        address: 'Recipe press road, Sunnyvale, CA',
-        phone: '+123 456 7890',
-        fax: '+123 456 7890',
-        email: 'info@recipepress.com',
-    },
-    {
-        name: "Our Restaurant",
-        address: 'Recipe press road, Sunnyvale, CA',
-        phone: '+123 456 7890',
-        fax: '+123 456 7890',
-        email: 'info@recipepress.com',
-    },
-    {
-        name: "Other Office",
-        address: 'Recipe press road, Sunnyvale, CA',
-        phone: '+123 456 7890',
-        fax: '+123 456 7890',
-        email: 'info@recipepress.com',
-    },
-]
+import { webContactInfo } from '../../data';
 
 const ContactUsPage = () => {
     return (

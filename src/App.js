@@ -14,7 +14,6 @@ import ContactUsPage from "./pages/ContactUsPage/ContactUsPage";
 import { recipesInCategory } from './utils/utils';
 import { recipes } from "./data";
 
-
 function App() {
   // if the data cannot be fetched, use the data from data.js
   // const fetchedData = recipes;
@@ -25,7 +24,7 @@ function App() {
   console.log(fetchedData)
   useEffect(() => {
     const fetchData = async () => {
-      const response = await fetch("https://run.mocky.io/v3/a4d7d187-d0df-4909-8a5a-58e1d4739b1f");
+      const response = await fetch("https://run.mocky.io/v3/258f0aa8-e395-4fed-8eaa-347caecfd1f1");
       const responseJson = await response.json();
       setFetchedData(responseJson);
     };
