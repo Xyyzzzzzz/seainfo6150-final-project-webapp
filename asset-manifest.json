@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/seainfo6150-final-project-webapp/static/css/main.e76af2ef.chunk.css",
-    "main.js": "/seainfo6150-final-project-webapp/static/js/main.781a05b3.chunk.js",
-    "main.js.map": "/seainfo6150-final-project-webapp/static/js/main.781a05b3.chunk.js.map",
+    "main.css": "/seainfo6150-final-project-webapp/static/css/main.21210043.chunk.css",
+    "main.js": "/seainfo6150-final-project-webapp/static/js/main.3cdfb69a.chunk.js",
+    "main.js.map": "/seainfo6150-final-project-webapp/static/js/main.3cdfb69a.chunk.js.map",
     "runtime~main.js": "/seainfo6150-final-project-webapp/static/js/runtime~main.c4d7f5e8.js",
     "runtime~main.js.map": "/seainfo6150-final-project-webapp/static/js/runtime~main.c4d7f5e8.js.map",
-    "static/js/2.39e95fd1.chunk.js": "/seainfo6150-final-project-webapp/static/js/2.39e95fd1.chunk.js",
-    "static/js/2.39e95fd1.chunk.js.map": "/seainfo6150-final-project-webapp/static/js/2.39e95fd1.chunk.js.map",
+    "static/js/2.eff9b9ca.chunk.js": "/seainfo6150-final-project-webapp/static/js/2.eff9b9ca.chunk.js",
+    "static/js/2.eff9b9ca.chunk.js.map": "/seainfo6150-final-project-webapp/static/js/2.eff9b9ca.chunk.js.map",
     "index.html": "/seainfo6150-final-project-webapp/index.html",
-    "precache-manifest.699beceda317edf73d8330319e57f2d6.js": "/seainfo6150-final-project-webapp/precache-manifest.699beceda317edf73d8330319e57f2d6.js",
+    "precache-manifest.21d94cee18ec832890e1771bf54f8cd1.js": "/seainfo6150-final-project-webapp/precache-manifest.21d94cee18ec832890e1771bf54f8cd1.js",
     "service-worker.js": "/seainfo6150-final-project-webapp/service-worker.js",
-    "static/css/main.e76af2ef.chunk.css.map": "/seainfo6150-final-project-webapp/static/css/main.e76af2ef.chunk.css.map",
+    "static/css/main.21210043.chunk.css.map": "/seainfo6150-final-project-webapp/static/css/main.21210043.chunk.css.map",
     "static/media/error.jpg": "/seainfo6150-final-project-webapp/static/media/error.1108ac06.jpg",
     "static/media/PageHeader.module.css": "/seainfo6150-final-project-webapp/static/media/pageHeaderBanner.9ccbf092.jpg"
   }
