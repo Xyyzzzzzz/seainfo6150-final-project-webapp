@@ -15,7 +15,7 @@ exports[`renders the home component correctly 1`] = `
           >
             <h3>
               <a
-                href="/category/American"
+                href="./category/American"
               >
                 American
               </a>
@@ -49,7 +49,7 @@ exports[`renders the home component correctly 1`] = `
                     class="title"
                   >
                     <a
-                      href="/details/1"
+                      href="./details/1"
                     >
                       Roasted Turkey with Smoked Paprika
                     </a>
@@ -79,7 +79,7 @@ exports[`renders the home component correctly 1`] = `
                     class="title"
                   >
                     <a
-                      href="/details/2"
+                      href="./details/2"
                     >
                       Pineapple Burger Stack with Avocado Salsa
                     </a>
@@ -109,7 +109,7 @@ exports[`renders the home component correctly 1`] = `
                     class="title"
                   >
                     <a
-                      href="/details/3"
+                      href="./details/3"
                     >
                       Grilled Butterflied Open Nature Lamb Leg with Mint-Pistachio Pesto
                     </a>
@@ -139,7 +139,7 @@ exports[`renders the home component correctly 1`] = `
                     class="title"
                   >
                     <a
-                      href="/details/4"
+                      href="./details/4"
                     >
                       Pumpkin and Chocolate Roll
                     </a>
@@ -165,7 +165,7 @@ exports[`renders the home component correctly 1`] = `
           >
             <h3>
               <a
-                href="/category/Asian"
+                href="./category/Asian"
               >
                 Asian
               </a>
@@ -199,7 +199,7 @@ exports[`renders the home component correctly 1`] = `
                     class="title"
                   >
                     <a
-                      href="/details/5"
+                      href="./details/5"
                     >
                       Potato and Cauliflower Curry
                     </a>
@@ -229,7 +229,7 @@ exports[`renders the home component correctly 1`] = `
                     class="title"
                   >
                     <a
-                      href="/details/6"
+                      href="./details/6"
                     >
                       Air Fryer Crispy Tofu and Vegetables
                     </a>
@@ -259,7 +259,7 @@ exports[`renders the home component correctly 1`] = `
                     class="title"
                   >
                     <a
-                      href="/details/7"
+                      href="./details/7"
                     >
                       Beef Lo Mein with Chinese Broccoli and Baby Corn
                     </a>
@@ -289,7 +289,7 @@ exports[`renders the home component correctly 1`] = `
                     class="title"
                   >
                     <a
-                      href="/details/8"
+                      href="./details/8"
                     >
                       Chicken and Coconut Soup with Mushrooms and Sticky Rice
                     </a>
@@ -315,7 +315,7 @@ exports[`renders the home component correctly 1`] = `
           >
             <h3>
               <a
-                href="/category/European"
+                href="./category/European"
               >
                 European
               </a>
@@ -349,7 +349,7 @@ exports[`renders the home component correctly 1`] = `
                     class="title"
                   >
                     <a
-                      href="/details/9"
+                      href="./details/9"
                     >
                       Beer and Beef Shepherd's Pie
                     </a>
@@ -379,7 +379,7 @@ exports[`renders the home component correctly 1`] = `
                     class="title"
                   >
                     <a
-                      href="/details/10"
+                      href="./details/10"
                     >
                       Irish Mashed Potatoes
                     </a>
@@ -409,7 +409,7 @@ exports[`renders the home component correctly 1`] = `
                     class="title"
                   >
                     <a
-                      href="/details/11"
+                      href="./details/11"
                     >
                       Cream Cheese Topped French Toast with Pumpkin Spiced Cream Cheese
                     </a>
@@ -439,7 +439,7 @@ exports[`renders the home component correctly 1`] = `
                     class="title"
                   >
                     <a
-                      href="/details/15"
+                      href="./details/15"
                     >
                       Fresh Spaghetti with Tomato Sauce and Burrata
                     </a>
@@ -465,7 +465,7 @@ exports[`renders the home component correctly 1`] = `
           >
             <h3>
               <a
-                href="/category/Others"
+                href="./category/Others"
               >
                 Others
               </a>
@@ -499,7 +499,7 @@ exports[`renders the home component correctly 1`] = `
                     class="title"
                   >
                     <a
-                      href="/details/12"
+                      href="./details/12"
                     >
                       Broccoli Rabe with Prosciutto
                     </a>
@@ -529,7 +529,7 @@ exports[`renders the home component correctly 1`] = `
                     class="title"
                   >
                     <a
-                      href="/details/13"
+                      href="./details/13"
                     >
                       Coffee Smoothie Bowl
                     </a>
@@ -559,7 +559,7 @@ exports[`renders the home component correctly 1`] = `
                     class="title"
                   >
                     <a
-                      href="/details/14"
+                      href="./details/14"
                     >
                       Cilantro-Lime Pasta Salad
                     </a>
@@ -589,7 +589,7 @@ exports[`renders the home component correctly 1`] = `
                     class="title"
                   >
                     <a
-                      href="/details/16"
+                      href="./details/16"
                     >
                       Peach & Ginger Mocktail
                     </a>

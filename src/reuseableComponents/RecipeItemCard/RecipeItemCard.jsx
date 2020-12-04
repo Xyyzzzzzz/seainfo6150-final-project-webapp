@@ -7,7 +7,7 @@ const RecipeItemCard = ({ recipe }) => {
             <img className={styles.image} src={recipe.images.recipeCardUrl} alt={recipe.title} />
             <div className={styles.textWapper}>
                 <div className={styles.title}>
-                    <a href={`/details/${recipe.id}`}>{recipe.title}</a>
+                    <a href={`./details/${recipe.id}`}>{recipe.title}</a>
                 </div>
                 <div className={styles.cookTime}>
                     Cooking Time: {recipe.otherInfo.cookTime}

@@ -37,7 +37,6 @@ function App() {
   const content = isEmpty(fetchedData) ?
     <h3>Loading ... Please wait ...</h3> :
     (<div>
-      <Nav />
       <Switch>
         <Route exact path="/">
           < Home recipesInCategories={recipesInCategories} />
@@ -74,6 +73,7 @@ function App() {
   return (
     <div className="App">
       <AppHeader />
+      <Nav />
       {content}
     </div>
   );
