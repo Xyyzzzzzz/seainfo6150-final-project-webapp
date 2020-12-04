@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom';
 import styles from './RecipeItemCard.module.css';
 
 const RecipeItemCard = ({ recipe }) => {
@@ -7,7 +8,8 @@ const RecipeItemCard = ({ recipe }) => {
             <img className={styles.image} src={recipe.images.recipeCardUrl} alt={recipe.title} />
             <div className={styles.textWapper}>
                 <div className={styles.title}>
-                    <a href={`./details/${recipe.id}`}>{recipe.title}</a>
+                    <Link to={`./details/${recipe.id}`}>{recipe.title}</Link>
+                    {/* <a href={`./details/${recipe.id}`}>{recipe.title}</a> */}
                 </div>
                 <div className={styles.cookTime}>
                     Cooking Time: {recipe.otherInfo.cookTime}
