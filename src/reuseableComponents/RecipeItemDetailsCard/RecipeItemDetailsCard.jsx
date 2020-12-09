@@ -12,7 +12,6 @@ const RecipeItemDetailsCard = ({ recipe }) => {
             <div className={styles.details}>
                 <div className={styles.title}>
                     <Link to={`/details/${recipe.id}`}>{recipe.title.toUpperCase()}</Link>
-                    {/* <a href={`/details/${recipe.id}`}>{recipe.title.toUpperCase()}</a> */}
                 </div>
                 <div className={styles.recommendationText}>
                     <p >{convertedRecommendationText}</p>

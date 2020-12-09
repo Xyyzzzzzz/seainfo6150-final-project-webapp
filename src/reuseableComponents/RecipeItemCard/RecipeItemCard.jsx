@@ -9,7 +9,6 @@ const RecipeItemCard = ({ recipe }) => {
             <div className={styles.textWapper}>
                 <div className={styles.title}>
                     <Link to={`./details/${recipe.id}`}>{recipe.title}</Link>
-                    {/* <a href={`./details/${recipe.id}`}>{recipe.title}</a> */}
                 </div>
                 <div className={styles.cookTime}>
                     Cooking Time: {recipe.otherInfo.cookTime}

@@ -7,11 +7,11 @@ const RecipeCategory = ({ recipes, category }) => {
     return (
         <div className={styles.container}>
             <div className={styles.title}>
-                <h3> <Link to={`/category/${category}`}>{category}</Link></h3>
-                {/* <h3><a href={`./category/${category}`}>{category}</a></h3> */}
+                <h3>
+                    <Link to={`/category/${category}`}>{category}</Link>
+                </h3>
                 <p className={styles.viewMore}>
                     <Link to={`/category/${category}`}>View More</Link>
-                    {/* <a href={`/category/${category}`}>View More</a> */}
                 </p>
             </div>
             <ul className={styles.recipes}>
