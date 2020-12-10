@@ -1,36 +1,49 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { Link } from "react-router-dom";
 import styles from './Nav.module.css';
+import { searchRecipes } from '../../utils/utils';
 
-const Nav = () => {
+const Nav = ({ recipes, setSearchedRecipes }) => {
+    const [selectNavTab, setSelectNavTab] = useState("Home");
+    const [searchText, setSearchText] = useState('');
+
+    const onChange = (e) => {
+        setSearchText(e.target.value);
+    };
+
+    const applySearch = () => {
+        const searchResult = searchRecipes(searchText, recipes);
+        setSearchedRecipes(searchResult);
+    };
+
+    const changeTab = (tabName) => {
+        setSelectNavTab(tabName);
+        setSearchedRecipes(recipes);
+        setSearchText("");
+    };
+
     return (
-        <nav className={styles.container}>
-            <ul className={styles.navList}>
-                <li>
-                    <Link to="/">Home</Link>
-                </li>
-                <li>
-                    <Link to="/category/American">American</Link>
-                </li>
-                <li>
-                    <Link to="/category/Asian">Asian</Link>
-                </li>
-                <li>
-                    <Link to="/category/European">European</Link>
-                </li>
-                <li>
-                    <Link to="/category/Others">Others</Link>
-                </li>
-                <li>
-                    <Link to="/myCollection">My Collection</Link>
-                </li>
-                <li>
-                    <Link to="/subscribe">Subscribe</Link>
-                </li>
-                <li>
-                    <Link to="/contactUs">Contact Us</Link>
-                </li>
-            </ul>
+        <nav className={styles.navbar}>
+            <Link to="/" onClick={() => setSelectNavTab("Home")}>Home</Link>
+            <div className={styles.dropdown}>
+                <button className={styles.dropbtn}>Categories</button>
+                <div className={styles.dropContent}>
+                    <Link to="/category/American" onClick={() => changeTab("Category")}>American</Link>
+                    <Link to="/category/Asian" onClick={() => changeTab("Category")}>Asian</Link>
+                    <Link to="/category/European" onClick={() => changeTab("Category")}>European</Link>
+                    <Link to="/category/Others" onClick={() => changeTab("Category")}>Others</Link>
+                </div>
+            </div>
+            <Link to="/myCollection" onClick={() => changeTab("My Collection")}>My Collection</Link>
+            <Link to="/subscribe" onClick={() => changeTab("Subscribe")}>Subscribe</Link>
+            <Link to="/contactUs" onClick={() => changeTab("Contact Us")}>Contact Us</Link>
+            {(selectNavTab === "Home" || selectNavTab === "Category" || selectNavTab === "") ?
+                < div className={styles.searchContainer}>
+                    <input type="text" placeholder="Search.." name="search" value={searchText} onChange={onChange} />
+                    <button type="submit" onClick={applySearch}>Submit</button>
+                </div> :
+                null}
+
         </nav>
     )
 };

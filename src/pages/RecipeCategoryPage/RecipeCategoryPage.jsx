@@ -7,13 +7,17 @@ const RecipeCategoryPage = ({ categoryName, recipes }) => {
     return (
         <div>
             <PageHeader header={categoryName} />
-            <ul className={styles.container}>
-                {recipes.map(recipe => (
-                    <li key={recipe.id}>
-                        <RecipeItemDetailsCard recipe={recipe} />
-                    </li>
-                ))}
-            </ul>
+            {(!recipes || recipes.length === 0) ?
+                <p>Don't have any recipe in this category. Please try another category or clear your search.</p> :
+                <ul className={styles.container}>
+                    {recipes.map(recipe => (
+                        <li key={recipe.id}>
+                            <RecipeItemDetailsCard recipe={recipe} />
+                        </li>
+                    ))}
+                </ul>
+            }
+
         </div>
     )
 };

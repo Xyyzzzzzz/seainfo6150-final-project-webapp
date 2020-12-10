@@ -21,14 +21,16 @@ function App() {
   // const recipesInCategories = convertRecipesInCategory(fetchedData);
 
   const [fetchedData, setFetchedData] = useState();
-  const recipesInCategories = convertRecipesInCategory(fetchedData);
   const [myCollection, setMyCollection] = useState({});
+  const [searchedRecipes, setSearchedRecipes] = useState();
+  const recipesInCategories = convertRecipesInCategory(searchedRecipes);
 
   useEffect(() => {
     const fetchData = async () => {
       const response = await fetch("https://run.mocky.io/v3/258f0aa8-e395-4fed-8eaa-347caecfd1f1");
       const responseJson = await response.json();
       setFetchedData(responseJson);
+      setSearchedRecipes(responseJson);
     };
 
     if (isEmpty(fetchedData)) {
@@ -36,9 +38,12 @@ function App() {
     }
   }, [fetchedData]);
 
-  const content = isEmpty(fetchedData) ?
+  const content = (isEmpty(fetchedData) || isEmpty(searchedRecipes)) ?
     <h3>Loading ... Please wait ...</h3> :
     (<div>
+      <Nav
+        recipes={Object.values(fetchedData)}
+        setSearchedRecipes={setSearchedRecipes} />
       <Switch>
         <Route exact path="/">
           < Home recipesInCategories={recipesInCategories} />
@@ -80,7 +85,6 @@ function App() {
   return (
     <div className="App">
       <AppHeader />
-      <Nav />
       {content}
     </div>
   );

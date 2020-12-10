@@ -15,3 +15,10 @@ export const convertRecipesInCategory = (recipes) => {
 export const convertedText = (text) => {
     return text.length > 150 ? text.slice(0, 150) + '...' : text;
 };
+
+export const searchRecipes = (searchText, recipes) => {
+    const result = recipes.filter(recipe => {
+        return recipe.title.toLowerCase().includes(searchText.toLowerCase())
+    });
+    return result;
+};
