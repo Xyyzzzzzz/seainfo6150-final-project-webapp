@@ -7,17 +7,18 @@ const MyCollectionPage = ({ recipes }) => {
     return (
         <div>
             <PageHeader header="My Collection" />
-            {Object.values(recipes).length === 0 ?
-                <p>You don't have any recipe in your collection.</p> :
-                <ul className={styles.container}>
-                    {Object.values(recipes).map(recipe => (
-                        <li key={recipe.id}>
-                            <RecipeItemDetailsCard recipe={recipe} />
-                        </li>
-                    ))}
-                </ul>}
-
-        </div>
+            <div className={styles.container}>
+                {Object.values(recipes).length === 0 ?
+                    <p>You don't have any recipe in your collection.</p> :
+                    <ul >
+                        {Object.values(recipes).map(recipe => (
+                            <li key={recipe.id}>
+                                <RecipeItemDetailsCard recipe={recipe} />
+                            </li>
+                        ))}
+                    </ul>}
+            </div>
+        </div >
     )
 };
 

@@ -38,7 +38,7 @@ function App() {
     }
   }, [fetchedData]);
 
-  const content = (isEmpty(fetchedData) || isEmpty(searchedRecipes)) ?
+  const content = isEmpty(fetchedData) ?
     <h3>Loading ... Please wait ...</h3> :
     (<div>
       <Nav

@@ -4,7 +4,7 @@ import styles from './Nav.module.css';
 import { searchRecipes } from '../../utils/utils';
 
 const Nav = ({ recipes, setSearchedRecipes }) => {
-    const [selectNavTab, setSelectNavTab] = useState("Home");
+    const [selectNavTab, setSelectNavTab] = useState("");
     const [searchText, setSearchText] = useState('');
 
     const onChange = (e) => {
