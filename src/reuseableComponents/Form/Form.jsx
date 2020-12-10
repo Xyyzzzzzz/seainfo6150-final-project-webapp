@@ -20,6 +20,8 @@ const Form = () => {
             <p>Name: {submittedForm.get("name")}</p>
             <p>Email Address: {submittedForm.get("email")}</p>
             <p>Telephone Number: {submittedForm.get("telephone")}</p>
+            <p>Facebook Username: {submittedForm.get("facebook-username")}</p>
+            <p>Other Notes: {submittedForm.get("other-notes")}</p>
             <p>Selected Recipe Category: {submittedForm.get("selectedCategory")}</p>
             <p>Subscribe Method: {submittedForm.get("subcribeMethod")}</p>
             <p>Subcribe Language: {submittedForm.get("subcribeLanguage")}</p>
@@ -36,6 +38,12 @@ const Form = () => {
               </div>
               <div className={styles.inputItem}>
                 <label>Telephone <input required type="tel" name="telephone" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" placeholder="Please enter your telephone number in this format 'XXX-XXX-XXXX'." /></label>
+              </div>
+              <div className={styles.inputItem}>
+                <label>Facebook Username <input type="text" name="facebook-username" placeholder="Please enter your Facebook username, optional." /></label>
+              </div>
+              <div className={styles.inputItem}>
+                <label>Other Notes <input type="text" name="other-notes" placeholder="Please enter other notes you want to share, optional." /></label>
               </div>
             </div>
             <div className={styles.subcribePreferences}>

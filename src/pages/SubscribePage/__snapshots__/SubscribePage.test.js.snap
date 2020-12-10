@@ -66,6 +66,30 @@ exports[`renders the Subscreibe page correctly 1`] = `
                 />
               </label>
             </div>
+            <div
+              class="inputItem"
+            >
+              <label>
+                Facebook Username 
+                <input
+                  name="facebook-username"
+                  placeholder="Please enter your Facebook username, optional."
+                  type="text"
+                />
+              </label>
+            </div>
+            <div
+              class="inputItem"
+            >
+              <label>
+                Other Notes 
+                <input
+                  name="other-notes"
+                  placeholder="Please enter other notes you want to share, optional."
+                  type="text"
+                />
+              </label>
+            </div>
           </div>
           <div
             class="subcribePreferences"

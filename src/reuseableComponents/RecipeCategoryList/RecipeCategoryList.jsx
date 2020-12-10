@@ -16,7 +16,7 @@ const RecipeCategory = ({ recipes, category }) => {
             </div>
             <ul className={styles.recipes}>
                 {recipes.map((recipe, index) => (index <= 3 ?
-                    <li key={index}><RecipeItemCard recipe={recipe} /></li> : null))}
+                    <li key={index} className={styles.recipe}><RecipeItemCard recipe={recipe} /></li> : null))}
             </ul>
         </div>
     )

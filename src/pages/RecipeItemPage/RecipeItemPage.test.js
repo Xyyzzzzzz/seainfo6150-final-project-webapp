@@ -39,8 +39,10 @@ const recipe = {
     ]
 };
 
+const myCollection = {};
+
 
 it("renders the Recipe Item page correctly", () => {
-    const { container } = render(<RecipeItemPage recipe={recipe} />);
+    const { container } = render(<RecipeItemPage recipe={recipe} myCollection={myCollection} />);
     expect(container).toMatchSnapshot();
 });

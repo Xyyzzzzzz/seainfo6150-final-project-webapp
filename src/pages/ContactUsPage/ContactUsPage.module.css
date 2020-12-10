@@ -1,5 +1,14 @@
 .container{
-    margin: 0 20%;
+    margin-top: 0;
+    margin-bottom: 10%;
+    margin-left: 10%;
+    margin-right: 10%;
+    display: flex;
+    align-items: flex-start;
+}
+
+.contactImage{
+    margin-top: 50px;
 }
 
 .infoCard{

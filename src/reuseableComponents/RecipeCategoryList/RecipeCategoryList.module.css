@@ -21,6 +21,11 @@
     grid-template-columns: 1fr;
  }
 
+.recipe{
+    border: 1px solid lightgray;
+    margin: 5%;
+}
+
 @media screen and (min-width: 850px) {
     .recipes{
         display: grid;

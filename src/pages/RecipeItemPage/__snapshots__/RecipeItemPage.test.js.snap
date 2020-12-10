@@ -13,6 +13,11 @@ exports[`renders the Recipe Item page correctly 1`] = `
     <h2>
       Roasted Turkey with Smoked Paprika
     </h2>
+    <button
+      class="collect-button"
+    >
+      Add to My Collection
+    </button>
     <div
       class="textWrapper"
     >

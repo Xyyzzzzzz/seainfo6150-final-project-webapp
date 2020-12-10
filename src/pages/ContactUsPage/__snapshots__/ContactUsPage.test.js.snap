@@ -16,76 +16,85 @@ exports[`renders the Contact Us page correctly 1`] = `
         </h1>
       </div>
     </div>
-    <ul
+    <div
       class="container"
     >
-      <li
-        class="infoCard"
-      >
-        <h3>
-          Registered Office
-        </h3>
-        <p>
-          Recipe press road, Sunnyvale, CA
-        </p>
-        <p>
-          Phone: 
-          +123 456 7890
-        </p>
-        <p>
-          Fax: 
-          +123 456 7890
-        </p>
-        <p>
-          Email: 
-          info@recipepress.com
-        </p>
-      </li>
-      <li
-        class="infoCard"
-      >
-        <h3>
-          Our Restaurant
-        </h3>
-        <p>
-          Recipe press road, Sunnyvale, CA
-        </p>
-        <p>
-          Phone: 
-          +123 456 7890
-        </p>
-        <p>
-          Fax: 
-          +123 456 7890
-        </p>
-        <p>
-          Email: 
-          info@recipepress.com
-        </p>
-      </li>
-      <li
-        class="infoCard"
-      >
-        <h3>
-          Other Office
-        </h3>
-        <p>
-          Recipe press road, Sunnyvale, CA
-        </p>
-        <p>
-          Phone: 
-          +123 456 7890
-        </p>
-        <p>
-          Fax: 
-          +123 456 7890
-        </p>
-        <p>
-          Email: 
-          info@recipepress.com
-        </p>
-      </li>
-    </ul>
+      <img
+        alt="telephone image"
+        class="contactImage"
+        sizes=" (max-width: 500px) 100px, (max-width: 1000px) 170px, (max-width: 1300px) 280px, 350px "
+        src="contactSmall.jpg"
+        srcset="contactSmall.jpg 200w, contactMedium.jpg 300w, contactLarge.jpg 400w"
+      />
+      <ul>
+        <li
+          class="infoCard"
+        >
+          <h3>
+            Registered Office
+          </h3>
+          <p>
+            Recipe press road, Sunnyvale, CA
+          </p>
+          <p>
+            Phone: 
+            +123 456 7890
+          </p>
+          <p>
+            Fax: 
+            +123 456 7890
+          </p>
+          <p>
+            Email: 
+            info@recipepress.com
+          </p>
+        </li>
+        <li
+          class="infoCard"
+        >
+          <h3>
+            Our Restaurant
+          </h3>
+          <p>
+            Recipe press road, Sunnyvale, CA
+          </p>
+          <p>
+            Phone: 
+            +123 456 7890
+          </p>
+          <p>
+            Fax: 
+            +123 456 7890
+          </p>
+          <p>
+            Email: 
+            info@recipepress.com
+          </p>
+        </li>
+        <li
+          class="infoCard"
+        >
+          <h3>
+            Other Office
+          </h3>
+          <p>
+            Recipe press road, Sunnyvale, CA
+          </p>
+          <p>
+            Phone: 
+            +123 456 7890
+          </p>
+          <p>
+            Fax: 
+            +123 456 7890
+          </p>
+          <p>
+            Email: 
+            info@recipepress.com
+          </p>
+        </li>
+      </ul>
+    </div>
   </div>
 </div>
 `;
