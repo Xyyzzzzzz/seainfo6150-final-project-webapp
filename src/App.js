@@ -5,9 +5,10 @@ import { isEmpty } from "lodash";
 
 import Home from "./pages/Home/Home.jsx";
 import RecipeCategoryPage from "./pages/RecipeCategoryPage/RecipeCategoryPage.jsx";
-import RecipeItemPage from './pages/RecipeItemPage/RecipeItemPage.jsx'
-import SubscribePage from './pages/SubscribePage/SubscribePage.jsx'
-import ErrorPage from './pages/ErrorPage/ErrorPage.jsx'
+import RecipeItemPage from './pages/RecipeItemPage/RecipeItemPage.jsx';
+import MyCollectionPage from './pages/MyCollectionPage/MyCollectionPage.jsx';
+import SubscribePage from './pages/SubscribePage/SubscribePage.jsx';
+import ErrorPage from './pages/ErrorPage/ErrorPage.jsx';
 import Nav from "./reuseableComponents/Nav/Nav";
 import AppHeader from "./reuseableComponents/AppHeader/AppHeader";
 import ContactUsPage from "./pages/ContactUsPage/ContactUsPage";
@@ -21,6 +22,7 @@ function App() {
 
   const [fetchedData, setFetchedData] = useState();
   const recipesInCategories = convertRecipesInCategory(fetchedData);
+  const [myCollection, setMyCollection] = useState({});
 
   useEffect(() => {
     const fetchData = async () => {
@@ -57,9 +59,14 @@ function App() {
           render={({ match }) => (
             <RecipeItemPage
               recipe={fetchedData[match.params.recipeId]}
+              myCollection={myCollection}
+              setMyCollection={setMyCollection}
             />
           )}
         />
+        <Route path="/myCollection" exact>
+          <MyCollectionPage recipes={myCollection} />
+        </Route>
         <Route path="/subscribe" exact>
           <SubscribePage />
         </Route>

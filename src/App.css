@@ -22,3 +22,19 @@ a:hover{
 li{
     list-style: none;
 }
+
+button{
+    background-color: #9bcf7b;
+    border-radius: 5px;
+    cursor: pointer;
+    color: #33571c;
+    border: none;
+    font-weight: 600;
+    font-size: medium;
+    padding: 5px 10px;
+}
+  
+button:hover{
+    color: white;
+    background-color: #34750b;
+}

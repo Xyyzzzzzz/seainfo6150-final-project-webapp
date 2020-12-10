@@ -22,6 +22,9 @@ const Nav = () => {
                     <Link to="/category/Others">Others</Link>
                 </li>
                 <li>
+                    <Link to="/myCollection">My Collection</Link>
+                </li>
+                <li>
                     <Link to="/subscribe">Subscribe</Link>
                 </li>
                 <li>

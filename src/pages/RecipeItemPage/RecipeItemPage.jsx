@@ -1,13 +1,32 @@
-import React from 'react'
+import React, { useState } from 'react'
 import styles from './RecipeItemPage.module.css'
 
-const RecipeItemPage = ({ recipe }) => {
+const RecipeItemPage = ({ recipe, myCollection, setMyCollection }) => {
+    const recipeId = recipe.id;
+    const [buttonText, setButtonText] = useState(
+        myCollection[recipeId] ? "Remove from My Collection" : "Add to My Collection");
+
+    const ToggleRecipeToCollection = () => {
+        const newMyCollection = myCollection;
+        if (myCollection[recipeId]) {
+            delete newMyCollection[recipeId];
+            setButtonText("Add to My Collection");
+        } else {
+            newMyCollection[recipeId] = recipe;
+            setButtonText("Remove from My Collection");
+        }
+        setMyCollection(newMyCollection);
+    }
+
     return (
         <div className={styles.container}>
             <img className={styles.image} src={recipe.images.recipeDetailUrl} alt={recipe.title}></img>
             <h2>
                 {recipe.title}
             </h2>
+            <button className="collect-button" onClick={ToggleRecipeToCollection}>
+                {buttonText}
+            </button>
             <div className={styles.textWrapper}>
                 <div className={styles.overview}>
                     <div className={styles.recommendationText}>{recipe.recommendationText}</div>
